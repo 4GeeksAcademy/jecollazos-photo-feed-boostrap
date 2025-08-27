@@ -1,0 +1,21 @@
+:root {
+  --post-max-width: 640px;
+}
+
+.post {
+  max-width: var(--post-max-width);
+}
+
+.nav-icons .nav-link {
+  font-size: 1.25rem;
+  color: #adb5bd;
+  padding: .25rem .5rem;
+}
+
+.nav-icons .nav-link.active i {
+  color: var(--bs-primary);
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
